@@ -1,0 +1,29 @@
+
+input{
+    width: 20%;
+    padding: 0.5rem;
+    margin: auto;
+    height: 10px;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+}
+
+button{
+    margin: auto;
+    display: block;
+}
+
+table, th, td{
+    
+    margin: auto;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30%;
+    table-layout: fixed;
+}
+
+#cash-given-div, #cash-given-error-1 ,#cash-given-error-2,  #cash-given-error-3, #return-change-div, #bill-amount-error {
+    display: none;
+}
