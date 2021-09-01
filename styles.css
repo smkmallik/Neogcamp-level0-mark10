@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root {
+    --primary-color: #1341DA;
+    --font-color: white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-container {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--font-color);
+}
+
 
 input{
     width: 20%;
@@ -9,9 +29,16 @@ input{
     text-align: center;
 }
 
-button{
-    margin: auto;
+
+button {
     display: block;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border: none;
+    margin: auto;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: medium;
 }
 
 table, th, td{
@@ -26,4 +53,47 @@ table, th, td{
 
 #cash-given-div, #cash-given-error-1 ,#cash-given-error-2,  #cash-given-error-3, #return-change-div, #bill-amount-error {
     display: none;
+    
+}
+
+#cash-given-input {
+    display: block;
+    margin: auto;
+}
+
+#cash-given-button {
+    margin-top: 1rem;;
+}
+
+footer {
+    bottom: 0;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    color: var(--font-color);
+}
+
+.end-credits {
+    margin: 1rem;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-inline-start: 1rem;
+    
 }

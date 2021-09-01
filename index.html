@@ -8,9 +8,7 @@
     <title>cash register</title>
 </head>
 <body>
-    <h2 style="text-align: center;">Cash Register Manager</h2>
-
-    <hr></hr>
+    <header class="header-container">Cash Register Manager</header>
 
     <p style="text-align: center;">Enter the bill amount and cash given by the customer and know minimum number of notes in return</p>
 
@@ -27,9 +25,8 @@
     <br>
 
     <div id="cash-given-div">
-        <h3 style="text-align: center;">Cash Given:</h3>
+        <p style="text-align: center;">Cash Given:</p>
         <input id="cash-given-input" type="number" placeholder="Enter the cash you gave"></input>
-        <br>
         <button type="button" id="cash-given-button">Check</button>
         <p id="cash-given-error-1" style="text-align: center;">Please enter the correct amount, cash given is less than bill amount</p>
         <p id="cash-given-error-2" style="text-align: center;">No return change</p>
@@ -65,6 +62,21 @@
             </tr>
         </table>
     </div>
+
+    <footer>
+        <div >let's connect!</div>
+        <ul>
+            <li>
+                <a class="link" href="https://github.com/smkmallik">github</a>
+            </li>
+            <li>
+                <a class="link" href="https://twitter.com/soumik_72">twitter</a></li>
+            <li>
+                <a class="link" href="https://www.linkedin.com/in/smkmallik/">linkedin</a>    
+             </li>
+        </ul>
+        <div class="end-credits">Made with 💙 Soumik Mallik</div>
+    </footer>
 
     <script src="/app.js"></script>
 

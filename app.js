@@ -36,7 +36,10 @@ function billAmountNextClickHandler() {
     var billAmount = Number(billAmountInput.value);
     if(billAmount < 1) {
         billAmountDiv.style.display = "block";
-    } else {
+    } else if(billAmount === 0) {
+        billAmountError.style.display = "block";
+    }
+    else {
         billAmountDiv.style.display = "none";
         cashGivenDiv.style.display = "block";
         billAmountButton.style.display = "none";
