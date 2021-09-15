@@ -14,6 +14,7 @@ var returnChangeDiv = document.querySelector("#return-change-div");
 
 // Errors 
 var billAmountError = document.querySelector("#bill-amount-error");
+var billAmountNegativeError = document.querySelector('#bill-amount-negative-error');
 var cashLessThanBillError = document.querySelector("#cash-given-error-1")
 var noReturnChangeError = document.querySelector("#cash-given-error-2");
 var noInputCashGivenError = document.querySelector("#cash-given-error-3");
@@ -36,6 +37,7 @@ function billAmountNextClickHandler() {
     var billAmount = Number(billAmountInput.value);
     if(billAmount < 1) {
         billAmountDiv.style.display = "block";
+        billAmountNegativeError.style.display = 'block'
     } else if(billAmount === 0) {
         billAmountError.style.display = "block";
     }

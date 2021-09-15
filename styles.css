@@ -56,6 +56,13 @@ table, th, td{
     
 }
 
+#bill-amount-negative-error {
+    display: none;
+    margin: auto;
+    padding-left: 31rem;
+    padding-top: 2rem;
+}
+
 #cash-given-input {
     display: block;
     margin: auto;
